@@ -10,6 +10,10 @@ function countBs(string) {
     return count;
 }
 
+function countBs2(string) {
+    return countChar(string, "B");
+}
+
 function countChar(string, char) {
     let count = 0;
     for (let i = 0; i < string.length; i++) {
@@ -17,10 +21,6 @@ function countChar(string, char) {
             count++;
     }
     return count;
-}
-
-function countBs2(string) {
-    return countChar(string, "B");
 }
 
 console.log(countBs('BBC'));
