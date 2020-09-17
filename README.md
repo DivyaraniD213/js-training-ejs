@@ -1,2 +1,2 @@
 # js-training-ejs
-javaScript Training Exercises
+javaScript Training related Exercises
